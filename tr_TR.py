@@ -1,5 +1,5 @@
 STRINGS = {
-    # Herkese açık mesajlar
+    # Global messages
     "bot.added_by": "Ekleyen",
     "bot.alias": "Kısaltma",
     "bot.aliases": "Kısaltmalar",
@@ -28,7 +28,7 @@ STRINGS = {
     "bot.visibility": "Gözükebilirlik",
     "bot.yes": "Evet",
 
-    # Hatalar
+    # Error messages
     "error.bad_image": "Bir görüntü açmaya çalışırken bir hata oluştu. Sağlanan görüntünün bozuk olmadığından emin olun.",
     "error.bad_png": "Bu görüntü bozuk görünüyor. Bir görüntü düzenleyici ile yeniden kaydetmeyi veya kullanmayı deneyin. `{0}quantize`.",
     "error.cannot_fetch_template": "Şablon URL'ye erişilemedi. (Orijinal dosya silindi mi?)",
@@ -45,7 +45,7 @@ STRINGS = {
     "error.no_templates": "Bu birlik şuanda şablon bulundurmuyor.",
     "error.no_templates_for_canvas": "Bu birlik şuanda bu site için şablon bulundurmuyor.",
     "error.not_png": "Bu komut için .PNG uzantılı görüntü gerekiyor.",
-    "error.no_user_permission": "You do not have permission to use that command.",
+    "error.no_user_permission": "Bu komutu kullanmak için yeterli izne sahip değilsin.",
     "error.non_discord_url": "Sadece Discord attachment URL'lerini kabul edebilirim.",
     "error.template_not_found": "Bu şablon bulunamadı.",
     "error.timed_out": "Komutun süresi doldu.",
@@ -59,7 +59,7 @@ STRINGS = {
     # Canvas command messages
     "canvas.diff": "{0}/{1} | {2} Hata | {3} Tamamlanan",
     "canvas.diff_bad_color": "{0}/{1} | {2} Hata | {bad} Uyumsuz Renk | {3} Tamamlanan",
-    "canvas.diff_error_list": "({}, {}) {}, Olmalı {}",
+    "canvas.diff_error_list": "({}, {}) {}, Olması {}",
     "canvas.invalid_input": "Olumsuz sonuç: herhangi bir şablon ismi bulunamadı veya desteklenmeyen komut tipi.",
     "canvas.large_template": "(Büyük şablon işleniyor, bu birkaç dakika sürebilir...)",
     "canvas.quantize": "{0} Piksel Düzeltildi.",
